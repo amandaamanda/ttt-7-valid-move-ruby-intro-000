@@ -2,10 +2,6 @@
 def valid_move?(board, index)
   if position_taken?(board, index)
     true
-    if blearn
-    board[index.to_i].between?(0,9)
-      true
-    end
   end
   end
 
